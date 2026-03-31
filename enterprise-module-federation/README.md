@@ -1,6 +1,6 @@
 # Enterprise Module Federation
 
-Enterprise-oriented monorepo scaffold extracted from the shared page.
+Enterprise-oriented monorepo scaffold for teams that need a reusable foundation for production-ready microfrontend platforms.
 
 ## Highlights
 
@@ -16,7 +16,7 @@ Enterprise-oriented monorepo scaffold extracted from the shared page.
 
 ## How to run
 
-This version follows the enterprise run guidance from the shared page.
+Anyone can use this version as an enterprise-ready starting point and adapt it to their own auth, API, remote loading, and deployment requirements.
 
 ### Prerequisites
 

@@ -1,12 +1,12 @@
 # Microfrontend Architecture Suite
 
-This repository collects the three versions described in the shared ChatGPT page:
+This repository provides three reusable microfrontend starter tracks for anyone building scalable and production-ready frontend projects:
 
 - `starter-single-spa`
 - `production-single-spa`
 - `enterprise-module-federation`
 
-It also includes the extracted app-building master prompt in `MASTER_PROMPT.md`.
+It also includes a reusable app-building prompt in `MASTER_PROMPT.md`.
 
 ## Structure
 
@@ -85,7 +85,6 @@ Expected local services:
 
 ## Notes
 
-- The subprojects are starter structures and documentation, ready to be expanded or wired into fully runnable apps.
-- The production and enterprise tracks follow the run guidance described in the shared page:
-  `npm install && npm run start` for the production-style variant, and
-  `pnpm install && pnpm dev` for the enterprise Module Federation variant.
+- These subprojects are public starter foundations that anyone can use, customize, and extend for real-world microfrontend projects.
+- The production track uses `npm install && npm run start`.
+- The enterprise track uses `pnpm install && pnpm dev`.

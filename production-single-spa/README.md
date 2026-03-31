@@ -1,6 +1,6 @@
 # Production Single-spa
 
-Production-style `single-spa` monorepo scaffold.
+Production-style `single-spa` monorepo scaffold for teams that want a reusable starting point for production-ready microfrontend projects.
 
 ## Improvements over starter
 
@@ -13,7 +13,7 @@ Production-style `single-spa` monorepo scaffold.
 
 ## How to run
 
-This version follows the production-style run guidance from the shared page.
+Anyone can use this version as a production-ready starting point and adapt it to their own apps, routes, and deployment setup.
 
 ### Prerequisites
 
@@ -40,4 +40,4 @@ npm run start
 
 ## Important note
 
-This is a strong production-style scaffold. Depending on your local environment, you may still need small dependency adjustments before a full local run succeeds.
+This is a strong production-ready scaffold. Depending on your local environment, you may still need small dependency adjustments before a full local run succeeds.
