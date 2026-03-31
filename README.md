@@ -56,5 +56,4 @@ Enterprise-oriented monorepo with:
 
 ## Notes
 
-- This repo is scaffolded from the contents discoverable in the shared ChatGPT page.
 - The subprojects are starter structures and documentation, ready to be expanded or wired into fully runnable apps.
