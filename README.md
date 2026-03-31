@@ -39,6 +39,20 @@ Production-style `single-spa` monorepo with:
 - Docker starter
 - GitHub Actions starter
 
+How to run:
+
+```bash
+cd production-single-spa
+npm install
+npm run start
+```
+
+Expected idea:
+
+- install workspace dependencies
+- start the production-style shell and microfrontends
+- open the shell in your browser after the workspace is wired with real app scripts
+
 ### `enterprise-module-federation`
 
 Enterprise-oriented monorepo with:
@@ -50,6 +64,21 @@ Enterprise-oriented monorepo with:
 - shared auth package
 - mock API service
 
+How to run:
+
+```bash
+cd enterprise-module-federation
+pnpm install
+pnpm dev
+```
+
+Expected local services:
+
+- shell: `http://localhost:3000`
+- dashboard remote: `http://localhost:3001`
+- admin remote: `http://localhost:4200`
+- mock API: `http://localhost:5000`
+
 ## Suggested GitHub Repo Name
 
 `microfrontend-architecture-suite`
@@ -57,3 +86,6 @@ Enterprise-oriented monorepo with:
 ## Notes
 
 - The subprojects are starter structures and documentation, ready to be expanded or wired into fully runnable apps.
+- The production and enterprise tracks follow the run guidance described in the shared page:
+  `npm install && npm run start` for the production-style variant, and
+  `pnpm install && pnpm dev` for the enterprise Module Federation variant.
