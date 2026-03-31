@@ -1,0 +1,13 @@
+{
+  "name": "starter-single-spa",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "root-config",
+    "react-app",
+    "angular-app"
+  ],
+  "scripts": {
+    "start": "echo \"Run each app inside root-config, react-app, and angular-app after adding dependencies.\""
+  }
+}

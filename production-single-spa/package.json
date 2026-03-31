@@ -1,0 +1,11 @@
+{
+  "name": "production-single-spa",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "echo \"Production scaffold only. Add app dependencies and run package-level dev commands.\""
+  }
+}
